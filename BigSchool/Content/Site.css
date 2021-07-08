@@ -24,7 +24,7 @@ textarea {
 }
 
 .navbar-inverse {
-    background-color: #a94442;
+    background-color: #ff0000;
     border-color: #080808;
 }
 
@@ -40,38 +40,32 @@ navbar-inverse .navbar-nav > li > a {
     list-style: none;
 }
 
-    .course > li {
+.course > li {
         position: relative;
         margin-bottom: 30px;
-    }
-
-        .course > li .date {
-            text-align: center;
-            background-color: #ff0000;
-            color: white;
-            width: 60px;
-            border-radius: 8px;
-        }
-
-        .course > li .details {
-            position: absolute;
-            top: 0;
-            left: 70px;
-        }
-
-        .course > li .lecture {
-        }
-
-        .course > li .category {
-            display: block;
-        }
-
-        .course > li .action {
-            display: none;
-            left: 70px;
-            position: absolute;
-        }
-
-        .course > li:hover .action {
+}
+.course > li .date {
+        text-align: center;
+        background-color: #ff0000;
+        color: white;
+        width: 60px;
+        border-radius: 8px;
+ }
+.course > li .details {
+        position: absolute;
+        top: 0;
+        left: 70px;
+}
+.course > li .lecture {
+}
+.course > li .category {
+       display: block;
+}
+.course > li .action {
+       display: none;
+       left: 70px;
+       position: absolute;
+}
+.course > li:hover .action {
             display: block
-        }
+}
